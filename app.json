@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Meu Player",
+    "slug": "ppdm-02-i2hs-player-musica",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "meup",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#121212",
+    "primaryColor": "#1DB954",
+    "android": {
+      "package": "com.ppdm.i2hs.playermusica",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#121212"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.ppdm.i2hs.playermusica",
+      "supportsTablet": true
+    },
+    "plugins": [
+      [
+        "expo-audio",
+        {
+          "enableBackgroundPlayback": true
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#121212",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 180
+        }
+      ],
+      "expo-font",
+      "expo-asset"
+    ]
+  }
+}
